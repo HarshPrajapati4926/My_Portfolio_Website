@@ -15,11 +15,11 @@ const Portfolio = () => {
 
       <div className='portfolio portfolio_container'>
       <article className='portfolio_item'>
-        <h1>Weather App</h1>
+        {/* <h1>Weather App</h1> */}
           <div className='portfolio_item-image'>
             <img src={IMG1} alt='IMG1'></img>
           </div>
-          <h3>Using weather API</h3>
+          {/* <h3>Using weather API</h3> */}
           <div className="portfolio_item-cta">
           <a href='https://github.com/HarshPrajapati4926/Weather_App' className='btn'target='_blank'>GitHub</a>
           <a href='https://harshprajapati4926.github.io/Weather_App/' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -27,11 +27,11 @@ const Portfolio = () => {
         </article>
 
         <article className='portfolio_item'>
-          <h1>Currency Convertor</h1>
+          {/* <h1>Currency Convertor</h1> */}
           <div className='portfolio_item-image'>
             <img src={IMG2} alt='IMG1'></img>
           </div>
-          <h3>This is a Currencey Convertor</h3>
+          {/* <h3>This is a Currencey Convertor</h3> */}
           <div className="portfolio_item-cta">
           <a href='https://github.com' className='btn'target='_blank'>GitHub</a>
           <a href='https://github.com' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -39,11 +39,11 @@ const Portfolio = () => {
         </article>
 
         <article className='portfolio_item'>
-          <h1>Ecommerce Website</h1>
+          {/* <h1>Ecommerce Website</h1> */}
           <div className='portfolio_item-image'>
             <img src={IMG3} alt='IMG1'></img>
           </div>
-          <h3>E-commerce is a commercial transaction which is happened over the internet</h3>
+          <h3>E-commerce </h3>
           <div className="portfolio_item-cta">
           <a href='https://github.com/HarshPrajapati4926/Ecommerce_Website' className='btn'target='_blank'>GitHub</a>
           <a href='https://harshprajapati4926.github.io/Ecommerce_Website/' className='btn btn-primary' target='_blank'>Live Demo</a>
