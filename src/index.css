@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -28,7 +29,7 @@ html{
     display: none;
 }
 body{
-    /* font-family:; */
+    /* font-family: "Poppins", sans-serif; */
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
