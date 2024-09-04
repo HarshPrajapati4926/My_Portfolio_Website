@@ -6,7 +6,7 @@
 }
 .portfolio_item{
     background: var(--color-bg-varient);
-    padding: 1.3rem;
+    padding: 3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -16,6 +16,34 @@
     background:transparent;
 }
 .portfolio_item-image{
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid white;
+   
+}
+.highlighted-text {
+    color: var(--color-primary); /* Set the desired text color */
+    font-weight: bold; /* Optionally, make the text bold */
+    /* Add any other styles you want to apply to the highlighted text */
+}
+
+
+.portfolio_item .top_margin{
+    margin-top: 1.2rem ;
+    justify-content: center;
+}
+.portfolio_item .bottom_margin{
+    margin-bottom: 1.2rem ;
+    justify-content: center;
+}
+.portfolio_item-cta{
+   
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+/* .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
 }
@@ -25,8 +53,8 @@
 .portfolio_item-cta{
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
-}
+    margin-bottom: 1rem; */
+
 /* ############ MEDIA QUERIES ############ */
 @media screen and (max-width:1024px) {
     .portfolio_container{
